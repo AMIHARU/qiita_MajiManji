@@ -1,0 +1,42 @@
+/* 記事ページ */
+
+.LikeButton > .p-button::after {
+    content: "マジ卍";
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 2px;
+}
+.LikeButton > .p-button > span:not(.fa) {
+    display: none;
+}
+.itemsShowHeaderStock_statusList > li:first-child > .itemsShowHeaderStock_countText::after {
+    content: "マジ卍";
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+.itemsShowHeaderStock_statusList > li:first-child > .itemsShowHeaderStock_countText {
+    font-size: 0px;
+}
+.itemsShowHeaderStock_statusList > li:last-child > .itemsShowHeaderStock_countText {
+    margin-top:5px
+}
+.LikeLabel__text::after {
+    content: "マジ卍";
+    font-size: 16px;
+}
+.LikeLabel__text {
+    font-size: 0;
+}
+
+/* マイページ */
+
+.userLocalNav > .nav-tabs > li:nth-child(2) > a{
+	font-size: 0;
+}
+
+.userLocalNav > .nav-tabs > li:nth-child(2) > a::after{
+    content: "マジ卍した投稿";
+    font-size: 14px;
+}
